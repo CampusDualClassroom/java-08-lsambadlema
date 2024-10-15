@@ -38,7 +38,7 @@ class Exercise08Test {
         int n1 = 15;
         Exercise08.whileLoop(n1);
         for (int num = 0; num < n1; num++) {
-            String expectedMessage = num+" < "+n1+". El proximo ciclo valdra: "+(num+1);
+            String expectedMessage = num+" < "+n1+". El próximo ciclo valdra: "+(num+1);
             assertTrue(this.outContent.toString().contains(expectedMessage), "Loop inspection message is not correct");
         }
     }
